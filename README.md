@@ -95,7 +95,7 @@ Built with scalable architecture and modern UI design — similar to real SaaS h
 ![Apply](Screenshots/apply-job.png)
 
 ### 🧑‍💼 Recruiter Dashboard
-![Recruiter](Screenshots/recruiter-dashboard)
+![Recruiter](Screenshots/recruiter-dashboard.png)
 
 ### ➕ Post New Job
 ![Post Job](Screenshots/post-job.png)
