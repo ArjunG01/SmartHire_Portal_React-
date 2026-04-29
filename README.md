@@ -1,16 +1,184 @@
-# React + Vite
+# 🚀 SmartHire Portal – Intelligent Job Recruitment Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A modern SaaS-style recruitment platform built with **Spring Boot + React**  
+> Designed as a real-world production system for job seekers and recruiters.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Java](https://img.shields.io/badge/Backend-SpringBoot-green)
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![JWT](https://img.shields.io/badge/Auth-JWT-orange)
+![MySQL](https://img.shields.io/badge/Database-MySQL-yellow)
+![Status](https://img.shields.io/badge/Project-Production--Ready-brightgreen)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Overview
 
-## Expanding the ESLint configuration
+SmartHire is a full-stack job recruitment platform where:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✔ Recruiters post and manage jobs  
+✔ Candidates apply with resumes  
+✔ Applications are tracked in real time  
+✔ Secure authentication protects user data  
+
+Built with scalable architecture and modern UI design — similar to real SaaS hiring platforms.
+
+---
+
+## 🚀 Key Features
+
+### 👤 Job Seeker
+
+- Secure signup & login (JWT authentication)
+- Resume upload (PDF)
+- Browse public job listings
+- Apply to jobs instantly
+- Track application status (Pending / Accepted / Rejected)
+- Personal dashboard
+
+---
+
+### 🧑‍💼 Recruiter
+
+- Post new job openings
+- Edit/delete job listings
+- View applicants per job
+- Download candidate resumes
+- Accept / Reject applications
+- Recruiter management dashboard
+
+---
+
+### 🔐 System Features
+
+- Role-based access control
+- JWT authentication
+- Secure password hashing (BCrypt)
+- Resume file storage system
+- Smart search engine
+- REST API architecture
+- Production-level error handling
+- Responsive modern UI
+
+---
+
+## 🛠 Tech Stack
+
+### Backend
+- Java Spring Boot
+- Spring Security
+- JWT Authentication
+- Hibernate / JPA
+- REST APIs
+- MySQL
+
+### Frontend
+- React.js
+- Axios
+- HTML / CSS / JavaScript
+
+### Database
+- MySQL (Database: `smarthire`)
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Homepage
+![Homepage](Screenshots/homepage.png)
+
+### 🔎 Public Jobs Page
+![Jobs](Screenshots/jobs-page.png)
+
+### 📝 Apply Job
+![Apply](Screenshots/apply-job.png)
+
+### 🧑‍💼 Recruiter Dashboard
+![Recruiter](Screenshots/recruiter-dashboard.png)
+
+### ➕ Post New Job
+![Post Job](Screenshots/post-job.png)
+
+### 📊 Applicants Review
+![Applicants](Screenshots/applicants-review.png)
+
+### 📁 Job Seeker Dashboard
+![Dashboard](Screenshots/jobseeker-dashboard.png)
+
+---
+
+## ⚙ Installation Guide
+
+### 1️⃣ Clone Repository
+
+```
+git clone https://github.com/yourusername/SmartHire-Portal.git
+```
+
+---
+
+### 2️⃣ Backend Setup
+
+```
+cd backend
+mvn spring-boot:run
+```
+
+---
+
+### 3️⃣ Frontend Setup
+
+```
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+### 4️⃣ Database Setup
+
+Create database:
+
+```
+CREATE DATABASE smarthire;
+```
+
+Update credentials:
+
+```
+backend/src/main/resources/application.properties
+```
+
+```
+spring.datasource.url=jdbc:mysql://localhost:3306/smarthire
+spring.datasource.username=root
+spring.datasource.password=@arjun001@
+spring.jpa.hibernate.ddl-auto=update
+```
+
+---
+
+## 📌 Project Purpose
+
+This project demonstrates a production-level recruitment SaaS platform with:
+
+- secure authentication
+- recruiter workflow
+- resume management
+- real-world application architecture
+
+Built for portfolio showcase, interviews, and professional demonstration.
+
+---
+
+## 👨‍💻 Author
+
+**Arjun Ghadage**  
+Full Stack Developer  
+Java • Spring Boot • React • MySQL
+
+---
+
+⭐ If you like this project, consider giving it a star!
